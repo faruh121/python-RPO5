@@ -71,3 +71,4 @@ print("To be\nor not\nto be")
 # you're busy making other plans» John Lennon на разных
 # строках. Пример вывода:
 print("'Life is what happens\n   when\n     you're busy making other plans'\n                                  John Lennon")
+
