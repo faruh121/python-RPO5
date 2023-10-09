@@ -33,7 +33,7 @@ print("Cумма кратных 9 - ",krat9)
 # %
 n = int(input("Длинна линии:"))
 symvol = input("Символ")
-for i in range(1,n+1):
+for n in range(1,n+1):
     print(symvol)
 
 # Задание 3
