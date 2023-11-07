@@ -27,8 +27,9 @@ print(txt)
 # Есть некоторый текст. Посчитайте в этом тексте количество предложений и выведите на экран полученный
 # результат.
 text = input("Введите предложения: ")
-cntpr =  0 
-for x in text:
-  if x in ".":
-    cntpr =+1
-print("В данном тексте",cntpr,"предложений")
+words = text.split()
+count = 0
+for word in words:
+    if word.endswith("."):
+        count += 1
+print(count)
